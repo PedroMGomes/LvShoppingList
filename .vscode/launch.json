@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "dart",
+      "request": "launch",
+      "args": [
+        "--no-sound-null-safety",
+      ],
+      "console": "debugConsole",
+      "flutterMode": "debug",
+      "runTestsOnDevice": false,
+    },
+    {
+      "name": "Release",
+      "type": "dart",
+      "request": "launch",
+      "args": [
+        "--no-sound-null-safety",
+      ],
+      // "console": "terminal",
+      "flutterMode": "release",
+      "runTestsOnDevice": false,
+    },
+  ]
+}
